@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 let formNode = document.getElementById("create-task-form"); // get the form 
 formNode.addEventListener("submit", handelSubmit) // add EventListener for the submit 
-// document.getElementById('delete-button').onclick = deleteTask();
+
+
 
 });
 function handelSubmit (event){
@@ -14,6 +15,7 @@ function handelSubmit (event){
   // after submit reset the form so that it doesn't have the user's task
   let formNode = document.getElementById("create-task-form");
   formNode.reset();
+  debugger;
 }
 // ----------------------------------------------------------------------------------
 
